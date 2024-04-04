@@ -1,0 +1,4 @@
+SELECT COUNT(StudentID), Country
+FROM STUDENTS
+ORDER BY COUNT(Country) DESC
+WHERE Country > 10;
