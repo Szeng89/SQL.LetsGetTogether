@@ -1,4 +1,4 @@
 SELECT *
 FROM Students
-LEFT JOIN Enrollments
+LEFT JOIN Enrolments
 ON Students.StudentID=Enrolments.StudentID;

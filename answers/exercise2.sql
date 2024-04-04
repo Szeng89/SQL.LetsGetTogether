@@ -1,4 +1,4 @@
-SELECT StudentID
+SELECT *
 FROM Enrolments
-JOIN Students
+INNER JOIN Students
 ON Enrolments.StudentID = Students.StudentID;
